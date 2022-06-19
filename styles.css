@@ -62,6 +62,9 @@ article:hover{
     line-height: 1.7;
     word-spacing: 2px;
 }
+#mainHeading{
+    color:  rgb(27, 27, 30);
+}
 .funParagraph{
     color: green;
 }
