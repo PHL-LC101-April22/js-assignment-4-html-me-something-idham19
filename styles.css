@@ -56,7 +56,7 @@ article:hover{
     transform: scale(1.1);
     transition: all 0.4s;
 }
-p{
+#testP{
     text-align: center;
     letter-spacing: 1px;
     line-height: 1.7;
