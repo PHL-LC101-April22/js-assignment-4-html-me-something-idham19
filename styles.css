@@ -1,1 +1,92 @@
 /* Write your CSS here! */
+
+*{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    margin: 8px;
+    display:block;
+    background-color: rgb(210, 215, 220); 
+    
+    
+    
+}
+
+article{
+    background-color: white;
+    border: 1px solid;
+    margin: 2rem;  
+    padding: 2rem;
+    border-radius: 15px;
+    transition: all 0.4s;
+    width: 60% auto;
+
+}
+article:hover{
+    transform: scale(1.02);
+}
+
+
+.image{
+   width: 500px;
+   min-height: auto;
+   border-radius: 15px;
+   
+}
+.flags{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.flag_container{
+    padding: 1rem;
+    transition: all0.4s;
+    cursor: pointer;
+    
+}
+.flag_container:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
+#testP{
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.7;
+    word-spacing: 2px;
+}
+#mainHeading{
+    color:  red;
+}
+.funParagraph{
+    color: green;
+}
+button{
+    border-radius: 15px;
+ transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(230, 201, 201);
+    transform: scale(1.1);
+}
+
+li{
+   font-size:1.3rem;
+   line-height:1.7;
+   transition: all 0.5s;
+}
+li:hover{
+    color: white;
+    transform: scale(1.1);
+
+}
+a{
+    color: rgb(11, 100, 224);
+}
